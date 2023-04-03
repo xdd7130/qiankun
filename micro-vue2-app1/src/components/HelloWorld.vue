@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Micro Vue.js App1'
+      msg: 'Welcome to Micro Vue.js App1 首页'
     }
   }
 }
