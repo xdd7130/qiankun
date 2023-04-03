@@ -16,6 +16,11 @@ export default new Router({
       path: '/micro-vue2-app1',
       name: 'micro-vue2-app1',
       meta: { title: '子应用'}
+    },
+    {
+      path: '/micro-react-app2',
+      name: 'micro-react-app2',
+      meta: { title: '子应用'}
     }
   ]
 })

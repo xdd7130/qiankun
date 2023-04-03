@@ -30,12 +30,15 @@ registerMicroApps([
       container: '#microApp1',
     }
   },
-  // {
-  //   name: 'vue app',
-  //   entry: { scripts: ['//localhost:7100/main.js'] },
-  //   container: '#yourContainer2',
-  //   activeRule: '/yourActiveRule2',
-  // },
+  {
+    name: 'micro-react-app2',
+    entry: '//localhost:3011',
+    container: '#microApp2',
+    activeRule: '/micro-react-app2',
+    props: {
+      container: '#microApp2',
+    }
+  },
 ], {
 
   beforeLoad: [
