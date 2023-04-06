@@ -25,7 +25,7 @@
             </el-submenu>
             <el-menu-item index="2">
               <i class="el-icon-menu"></i>
-              <span slot="title">类目二（iframe）</span>
+              <span slot="title"><router-link to="/iframe">类目二（iframe）</router-link></span>
             </el-menu-item>
             <el-menu-item index="3" disabled>
               <i class="el-icon-document"></i>
