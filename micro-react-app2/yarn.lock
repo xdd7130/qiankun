@@ -7105,6 +7105,11 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-env@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmmirror.com/node-env/-/node-env-0.1.6.tgz#dc6570f0f912e58a9e7b72beeed2602ecfd63e21"
+  integrity sha512-rsDgeMTG8e5yRv4lllatqj/fKtMHt2H8RUQW1EuBL2p2t7Gbj8oa6MVns8v/f9a3Yl0IN5G2MurTc+E00V1qUw==
+
 node-forge@^1:
   version "1.3.1"
   resolved "http://af.hikvision.com.cn/artifactory/api/npm/npm-parthenon/node-forge/-/node-forge-1.3.1.tgz#be8da2af243b2417d5f646a770663a92b7e9ded3"

@@ -7,12 +7,13 @@ import Iframe from '@/components/Iframe'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld
+      component: HelloWorld,
+      redirect: 'hello'
     },
     {
       path: '/iframe',
