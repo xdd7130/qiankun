@@ -13,14 +13,14 @@ function App() {
       <header >
         <div>
           
-        <Link to='/micro-react-app2/Home'>Home</Link> |
-        <Link to={'/micro-react-app2/Login'}>Login</Link>
+        <Link to='/Home'>Home</Link> |
+        <Link to={'/Login'}>Login</Link>
         <Routes >
           
           {/* 使用/配置路由默认页；exact严格匹配 */}
           <Route component={Login} element={<Login/>} path='/' exact></Route>
-          <Route component={Login}  element={<Login/>} path='/micro-react-app2/Login'></Route>
-          <Route component={Home} element={<Home/>} path='/micro-react-app2/Home'></Route>
+          <Route component={Login}  element={<Login/>} path='/Login'></Route>
+          <Route component={Home} element={<Home/>} path='/Home'></Route>
         </Routes>
         </div>
       </header>

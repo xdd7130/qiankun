@@ -21,14 +21,14 @@ import './public-path';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter, Route, Link } from "react-router-dom"
+import { BrowserRouter, Route, Link, HashRouter } from "react-router-dom"
 
 function render(props) {
   const { container } = props;
   ReactDOM.render(
-    <BrowserRouter basename={window.__POWERED_BY_QIANKUN__ ? '/micro-react-app2' : '/'}>
+    <HashRouter basename={window.__POWERED_BY_QIANKUN__ ? '/micro-react-app2' : '/'}>
       <App/>
-    </BrowserRouter>
+    </HashRouter>
     , container ? container.querySelector('#root') : document.querySelector('#root'));
 }
 
