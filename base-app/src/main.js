@@ -20,6 +20,7 @@ new Vue({
   template: '<App/>'
 })
 
+// const getActiveRule = (hash) => (location) => location.hash.startsWith(hash);
 registerMicroApps([
   {
     name: 'micro-vue2-app1',
@@ -39,6 +40,15 @@ registerMicroApps([
       container: '#microApp2',
     }
   },
+  {
+    name: 'micro-react-app3',
+    entry: '//localhost:3000',
+    container: '#microApp3',
+    activeRule: '#/micro-react-app3', // #/micro-react-app3
+    props: {
+      container: '#microApp3',
+    }
+  }
 ], {
 
   beforeLoad: [

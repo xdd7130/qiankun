@@ -21,6 +21,8 @@
               </el-menu-item-group>
               <el-menu-item-group title="分组二：REACT">
                 <el-menu-item index="1-3"><router-link to="/micro-react-app2">microApp2</router-link></el-menu-item>
+                <el-menu-item index="1-4"><router-link to="/micro-react-app3">microApp3(history)</router-link></el-menu-item>
+
               </el-menu-item-group>
             </el-submenu>
             <el-menu-item index="2">
@@ -37,7 +39,7 @@
             </el-menu-item>
           </el-menu>
         </el-aside>
-        <el-main><router-view/><div id="microApp1"></div><div id="microApp2"></div></el-main>
+        <el-main><router-view/><div id="microApp1"></div><div id="microApp2"></div><div id="microApp3"></div></el-main>
       </el-container>
     </el-container>
     <!-- <router-link to="/">base</router-link> |
